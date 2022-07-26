@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .profile-image {
@@ -22,11 +26,35 @@ body {
   height:  48px;
 }
 
+.logoLinks {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 16px;
+}
+
 .logo {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 8px;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.buttonNote {
+  display: flex;
+  gap: 8px;
+  /* flex-direction: row; unnecessar */
+  justify-content: flex-start;
+  align-items: center;
+  margin: 16px;
 }
 
 button {
